@@ -15,3 +15,14 @@
 // console.log(totalSome);
 
 // WHILE
+
+let totalSome = 0;
+let userNumber= 5;
+i = 1;
+
+while (i <= userNumber) {
+	i++
+	let userNumber = parseInt(prompt("inserisci numero"));
+	totalSome += userNumber;
+}
+console.log(totalSome);
